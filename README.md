@@ -1,4 +1,4 @@
-# Hector-s-website
+# Hector's-website
  Personal Website
 This is a basic personal website created by hector pulido using HTML, CSS, and JavaScript. The site has three pages: Home, About, and Portfolio.
 
