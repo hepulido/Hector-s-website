@@ -25,13 +25,13 @@ git clone https://github.com/hepulido/https://github.com/hepulido/Hector-s-websi
 cd your-repository
 open index.html
 Usage
-The website is designed to showcase [Your Name]'s skills and experience. Users can browse the site to learn more about [Your Name] and view examples of [Your Name]'s work in the Portfolio section.
+The website is designed to showcase Hector Pulido's skills and experience. Users can browse the site to learn more about Hector Pulido and view examples of Hector Pulido's work in the Portfolio section.
 
 Contributing
 If you would like to contribute to the website, please feel free to fork the repository and submit a pull request.
 
 Credits
-The site design was inspired by various templates found online, with customizations made by [Your Name].
+The site design was inspired by various templates found online, with customizations made by Hector Pulido.
 
 License
 This project is licensed under the MIT License.
