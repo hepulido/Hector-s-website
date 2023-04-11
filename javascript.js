@@ -30,6 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => {
         alert('Success!', response)
         submitButton.disabled = false
+        console.log("hello")
         form.reset() 
       })
       .catch(error => {

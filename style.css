@@ -164,7 +164,7 @@ hr {
     color: white;
   }
   
-  #button{
+  .button{
     border: solid 1px white;
     border-radius: 10%;
     color:white;
