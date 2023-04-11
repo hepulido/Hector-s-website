@@ -124,3 +124,50 @@ hr {
     padding: 20px 40px;
     margin-top: 40px;
 }
+.wrapper-contact{
+    display:flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+}
+#form{
+    border: solid 1px white;
+    border-radius: 2%;
+    padding: 5%;
+}
+.email-number{
+    border: solid 1px white;
+    border-radius: 2%;
+    padding: 2% 4%;
+    margin-top: 40px;
+    color:white;
+}
+
+.input{
+    border: solid 1px white;
+    border-radius: 1%;
+    color:white;
+    background-color: rgb(5, 195, 238);
+    padding: 5% 5%;
+}
+#name::placeholder {
+    color:white;
+  }
+  
+  /* Style the placeholder text of the email input element */
+  #email::placeholder {
+    color: white;
+  }
+  
+  /* Style the placeholder text of the message textarea element */
+  #message::placeholder {
+    color: white;
+  }
+  
+  #button{
+    border: solid 1px white;
+    border-radius: 10%;
+    color:white;
+    background-color: rgb(5, 195, 238);
+    padding: 5% 20%;
+  }
