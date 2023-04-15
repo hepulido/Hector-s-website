@@ -17,6 +17,22 @@ links.forEach(link => {
   }
 });
 
+const navLinks = document.getElementById('header-links');
+const burgerIcon = document.getElementById('burger-icon');
+
+function toggleLinks() {
+  navLinks.classList.toggle('show-links');
+}
+
+function hideLinks() {
+  if (window.innerWidth > 1220) {
+    navLinks.classList.remove('show-links');
+  }
+}
+
+burgerIcon.addEventListener('click', toggleLinks);
+window.addEventListener('resize', hideLinks);
+
 document.addEventListener('DOMContentLoaded', function() {
   const form = document.querySelector("#form")
   const submitButton = document.querySelector("#submit")
@@ -39,3 +55,4 @@ document.addEventListener('DOMContentLoaded', function() {
       })
   })
 });
+

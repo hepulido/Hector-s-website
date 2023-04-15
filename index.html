@@ -7,28 +7,37 @@
     <title>Hector's Website</title>
     <link rel="stylesheet" href="style.css" />
     <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    
   </head>
   <header>
-    <nav class="links">
-      <div class="header-title">
-        <a href="/index.html"> <h1>Hector Pulido</h1></a>
-      </div>
-      <div class="header-links">
-        <a href="/index.html" class="nav-link"><h3>HOME</h3></a>
-        <a href="/about.html" class="nav-link active-link"><h3>ABOUT</h3> </a>
-        <a href="/portafolio.html" class="nav-link"><h3>PORTAFOLIO</h3> </a>
-        <a href="/contact.html"><h3>CONTACT</h3> </a>
-      </div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"> Hector Pulido</label>
+      <ul>
+        <li>
+          <a class="active" href="/index.html"><h3>HOME</h3></a>
+        </li>
+        <li>
+          <a href="/about.html"><h3>ABOUT</h3> </a>
+        </li>
+        <li>
+          <a href="/portafolio.html"><h3>PORTAFOLIO</h3> </a>
+        </li>
+        <li>
+          <a href="/contact.html"><h3>CONTACT</h3> </a>
+        </li>
+      </ul>
     </nav>
-    <div class="hero-img">
-        <img src="../assets/Beach.png" alt="beach" width="1920px" height="485px">
-      </div>
   </header>
   <body>
     <main class="main-content">
       <div class="site-container">
         <div class="content">
-            <h2>HELLO WORLD!</h2>
+          <h2>HELLO WORLD!</h2>
           <p>
             Hello, my name is Hector and I'm a passionate software developer.
             With a background in computer science and a Fullstack Academy
@@ -51,7 +60,10 @@
             connect with other developers and contribute to open-source
             projects.
           </p>
-          <p>Thank you for visiting my website and I look forward to connecting with you!</p>
+          <p>
+            Thank you for visiting my website and I look forward to connecting
+            with you!
+          </p>
         </div>
       </div>
     </main>
