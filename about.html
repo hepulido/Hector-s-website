@@ -7,27 +7,30 @@
     <title>Hector's Website</title>
     <link rel="stylesheet" href="style.css" />
     <script src="javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
   </head>
   <header>
-    <nav class="links">
-      <div class="header-title">
-        <a href="/"> <h1>Hector Pulido</h1></a>
-      </div>
-      <div class="header-links">
-        <a href="/"><h3>HOME</h3></a>
-        <a href="/about.html"><h3>ABOUT</h3> </a>
-        <a href="/portafolio.html"><h3>PORTAFOLIO</h3> </a>
-        <a href="/contact.html"><h3>CONTACT</h3> </a>
-      </div>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo"> Hector Pulido</label>
+      <ul>
+        <li>
+          <a class="active" href="/index.html"><h3>HOME</h3></a>
+        </li>
+        <li>
+          <a href="/about.html"><h3>ABOUT</h3> </a>
+        </li>
+        <li>
+          <a href="/portafolio.html"><h3>PORTAFOLIO</h3> </a>
+        </li>
+        <li>
+          <a href="/contact.html"><h3>CONTACT</h3> </a>
+        </li>
+      </ul>
     </nav>
-    <div class="hero-img">
-      <img
-        src="../assets/walkpaper.png"
-        alt="beach"
-        width="1920px"
-        height="485px"
-      />
-    </div>
   </header>
   <body>
     <main class="main-content">
@@ -54,9 +57,9 @@
             beauty of different landscapes. Hiking is not only a great way for
             me to stay fit, but it also helps me clear my mind and recharge my
             batteries. </p>
-            <img src="../assets/hike.png" alt="beach" width="545px" height="285px">
+            <img src="../assets/hike.png" alt="beach" width="445px" height="285px">
           </div>
-          <p>In addition to hiking, I also enjoy playing soccer. I have
+          <p class="last-paragraph">In addition to hiking, I also enjoy playing soccer. I have
             been playing the sport since I was a child and I have continued to
             play it throughout my life. I find the sport to be a great way to
             stay active, improve my coordination, and socialize with other
@@ -67,7 +70,7 @@
              <hr>
             <div class="about-secc-3">
                 <img src="../assets/family.png" alt="beach" width="445px" height="285px">
-          <p>
+          <p class="par-3">
             Finally, I cherish spending time with my family and friends. I
             love to catch up with loved ones over a home-cooked meal, go on
             weekend trips together, and engage in meaningful conversations. I
@@ -75,7 +78,8 @@
             effort to prioritize those relationships in my life.
           </p>
         </div>
-          <p>
+        <hr>
+          <p class="par-4">
             Overall, I am a well-rounded individual who enjoy a variety of
             hobbies and interests. From software development to hiking to
             spending time with loved ones, I am always looking for ways to grow,
